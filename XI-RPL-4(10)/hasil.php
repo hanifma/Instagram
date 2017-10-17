@@ -7,10 +7,15 @@
 <center>Akun Anda Berhasil Dibuat<br>
 <table>
 	<?php
-		$nama=$_POST["nama"];
+		/*$nama=$_POST["nama"];
 		$email=$_POST["email"];
 		$notelepon=$_POST["notelepon"];
-		$password=$_POST["password"];
+		$password=$_POST["password"];*/
+		$nama=$_REQUEST["nama"];
+		$user=$_REQUEST["user"];
+		$email=$_REQUEST["email"];
+		$notelepon=$_REQUEST["notelepon"];
+		$password=$_REQUEST["password"];
 		$password=str_repeat("*",strlen("password"));
 
 		echo"<tr><td>Nama</td><td>:</td><td>$nama</td></tr>";

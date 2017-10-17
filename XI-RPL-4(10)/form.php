@@ -60,7 +60,7 @@
 
 		<br>Atau<br><br>
 
-	<form action="hasil.php" method="GET">
+	<form action="hasil.php" method="POST">
 
 		<div class="table">
 		<table border=0 align="center">
